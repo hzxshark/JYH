@@ -1,0 +1,182 @@
+
+#header{	
+	width:100%;
+	height:160px !important;
+	border-bottom:2px solid #dc0f50;
+}
+#register_box{
+	width:1200px;
+	margin:0 auto;
+	height:530px;
+}
+.regi_left{
+	height:530px;
+	width:600px;
+	float:left;
+	position:relative;
+	background: #fff;
+}
+.regi_left input{
+	width:283px;
+	height:38px;
+	border:1px solid #d6d6d6;
+	margin-bottom: 20px;
+	padding-left:20px;
+	color:#a9a9a9;
+}
+
+#input2,#input5{
+	width:158px;	
+}
+.regi_left div:nth-of-type(1){
+	margin-top:80px;
+}
+.regi_left>div b{
+	width:158px;
+	display: inline-block;
+	text-align: right;
+	font-size:14px;
+	color:#666;
+	margin-right:12px;
+}
+
+.regi_left>div b i{
+	margin-right:3px;
+	color:#dc0f50;
+	vertical-align: middle;
+}
+
+input[type=checkbox]{
+	width:12px;
+	height:12px;
+	margin-left:115px;
+
+}
+
+#btn1{
+	background:#dc0f50;
+	color:#fff;
+	height:40px;
+	width:110px;
+	font-size: 14px;
+	outline: 0;
+	border:none;
+	margin-left:15px;
+	cursor:pointer;
+	vertical-align:middle;
+	text-align: center;
+	
+}
+#btn1:hover{
+	background:rgba(220,15,80,.8)
+}
+#btn2{
+	background:#dc0f50;
+	color:#fff;
+	height:40px;
+	width:305px;
+	font-size: 20px;
+	margin-left: 170px;
+	margin-bottom:10px;
+	cursor:pointer;
+	text-align: center;
+}
+#btn2:hover{
+	background:rgba(220,15,80,.8);
+}	
+.regi_left>div>u{
+	text-align: right;
+	display: block;
+	width:470px;
+	line-height:1em;
+	font-size: 16px;
+	color:#666;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+.regi_left>div>u:hover{
+	color:#d1030f;
+}
+.regi_left>div>a{
+	color:#333;
+}
+.regi_left>div>a:hover{
+	color:#666;
+}
+.regi_left span{
+	position:absolute;
+	width:160px;
+	display: inline-flex;
+	height:40px !important;
+	margin-left:15px;
+	padding-left:20px;
+	line-height:1em;
+	align-items: center;	
+}
+.error{
+	background:url(../img/icon/error_bg.png) no-repeat 0 14px;
+}
+.correct{
+	background:url(../img/icon/correct_bg.png) no-repeat 0 10px;
+}
+
+
+
+
+
+
+
+.regi_right{
+	width:50%;
+	height:530px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	float:left;
+}
+
+
+/*注册成功跳转页*/
+.regi_s{
+	position:absolute;
+	left:0;
+	top:0;
+	z-index:-1;
+	height:530px;
+	width:600px;
+	background:#fff;
+	text-align:center;
+}
+.regi_s ul li:nth-of-type(1) img{
+	margin:0 auto;
+	margin-top:110px;	
+}
+.regi_s ul li:nth-of-type(2){
+	font-size:24px;
+	margin-top:12px;
+	margin-bottom:60px;
+	line-height:1em;
+} 
+.regi_s ul li:nth-of-type(3){
+	width:140px;
+	height:40px;
+	background:#67bf75;
+	font-size:18px;
+	line-height:40px;
+	color:#fff;
+	margin:0 auto;
+	margin-bottom: 20px;
+	cursor:pointer;
+}
+.regi_s ul li:nth-of-type(4){
+	color:#999;
+	line-height:1em;
+}
+.regi_s ul li:nth-of-type(4) em{
+	margin-right:4px;
+	color:#dc0f50;
+}
+
+ 

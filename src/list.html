@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/public1.css"/>
+<link rel="stylesheet" type="text/css" href="css/list.css" />
+</head>
+<body>
+		<!--header-->
+<header id="header">
+<div class="h_title">
+	<div class="title_box">
+		<ul>
+			<li><a href="">收藏</a></li>
+		</ul>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li class="Login"><a href="login.html">请登录</a></li>
+			<li class="Register"><a href="register.html">免费注册</a></li>
+			<li>购物车<a href="shopchart.html" class="title_num"> 0 </a>件</li>
+			<li><a href="">我的家有</a></li>
+			<li>可用优惠券<a href=""> 0 </a>张</li>
+			<li><a href="">我的收藏</a></li>
+			<li><a href=""><span></span>手机版</a>
+				<p><span></span><img src="img/ERweima/ewm011.jpg" alt="" />
+				<b>家有购物APP</b>
+				</p>
+			</li>
+			<li>
+				<a href=""><span></span>微信版</a>
+				<div>
+					<span></span>
+					<img src="img/ERweima/ewm022.png" alt="" />
+					<b>家有购物微信</b>
+					<img src="img/ERweima/ewm033.jpg" alt="" />
+					<b>家有实验室</b>
+				</div>
+			</li>			
+		</ul>			
+	</div>
+</div>
+<div class="h_main">
+	<div><a href="index.html"><img src="img/Banner/logo1.png" alt=""/></a></div>
+	<div>
+		<div>
+			<input type="text" />
+			<input type="button" value="搜 索" />
+		</div>
+		<ul>				
+			<li><a href="">京城</a></li>
+			<li><a href="">防晒</a></li>
+			<li><a href="">女装</a></li>
+			<li><a href="">康宁</a></li>
+			<li><a href="">智能</a></li>
+			<li><a href="">莫洛琪</a></li>
+			<li><a href="">男士</a></li>
+			<li><a href="">收纳</a></li>
+			<li><a href="">GNC</a></li>				
+		</ul>
+	</div>
+	<!--******************购物车***************-->
+	<div class="my_chart">
+		<img src="img/icon/car_icon.png" alt="" />
+		<span  onclick="location.href='shopchart.html'">我的购物车<mark>0</mark></span>
+		
+		<!--没有商品的样式，这是固定的-->
+		<div class="no_goods">
+			<i></i>				
+			<div>购物车中还没有商品赶快去选购吧</div>
+		</div>
+		<!--有商品的时候,宽度和部分样式-->
+		<div class="had_goods">	
+			<i></i>
+			<h1>最新加入的商品</h1>
+			<ul class="new_goods">
+			</ul>
+			<div class="chart_bottom">
+				<h2>共<strong></strong>件商品</h2>
+				<h3>合计<del></del>元</h3>
+				<h4 onclick="location.href='shopchart.html'">去购物车</h4>
+			</div>
+		</div>			
+	</div>	
+</div>
+<div class="h_nav">
+	<ul class="nav_left">
+		<li>全部商品分类</li>
+		<b><img src="img/Details/jiantou.jpg" alt="" /></b>
+		<ul>
+			<li onclick="location.href='list.html'">服装服饰</li>
+			<li>食品饮料</li>
+			<li>生活家居</li>
+			<li>美妆个护</li>
+			<li>箱包配饰</li>
+			<li>海外购</li>
+			<li>运动健康</li>
+			<li>布艺家纺</li>
+			<li>品质厨房</li>
+			<li>厨房电器</li>
+			<li>生活电器</li>
+			<li>3C数码</li>
+		</ul>
+	</ul>
+	<ul class="nav_right">
+		<li>首页</li>
+		<li>TV直播</li>
+		<li>品牌惠</li>
+		<li>家有购物APP</li>
+		<li>家有尊享</li>
+	</ul>
+</div>
+</header>
+
+<!--section-->
+<section>
+	<div class="list_left">
+		<h2>全部商品</h2>
+		<div class="_top">		
+			<ol>
+				<p>分类</p>
+				<li>全部</li>
+				<li>女装</li>
+				<li>男装</li>				
+				<li>服装服饰-电视热销</li>
+				<li>内衣</li>
+				<li>家居服</li>
+				<li>男鞋</li>
+				<li>服装皮具</li>
+				<li>创意家居</li>
+				<li>童装</li>
+				<li>童鞋</li>
+				<span><b>更多</b><i></i></span>
+			</ol>
+			<ul>
+				<p>品牌</p>
+				<li>全部</li>
+				<li>娜箐箐</li>
+				<li>轩品媛</li>				
+				<li>百依恋歌</li>
+				<li>无</li>
+				<li>garthphil</li>
+				<li>裳未</li>
+				<li>黛熙月</li>
+				<li>花花公子</li>
+				<li>缔五季</li>
+				<li>kiss queen</li>
+				<li>珍真羊</li>
+				<li>芬斯戴尔</li>
+				<li>青丝慕尚</li>
+				<li>安拓娜</li>				
+				<li>今升</li>
+				<li>絮笈</li>
+				<li>多多的世界</li>
+				<li>斯加艇</li>
+				<li>伊美雪</li>
+				<li>觅乐特狼爪millet loup patte</li>
+				<span><b>更多</b><i></i></span>
+			</ul>			
+		</div>
+		<div class="_bottom">
+			<ol>
+				<li class="selected4">综合</li>				
+				<li>销量<i></i></li>
+				<li >人气<i></i></li>
+				<li >价格<i></i></li>
+				<li>
+					<div>
+						<strong>¥</strong>
+						<input type="text" />
+					</div>
+					<span>-</span>
+					<div>
+						<strong>¥</strong>
+						<input type="text" />
+					</div>
+					<p>确认</p>
+				</li>	
+			</ol>
+			<!--这里是动态创建列表页的地方-->
+			<div id="list_page"></div>
+			<div class="Paging">
+				<ul>
+					<li class="page_now">上一页</li>
+					<li class="page_now">1</li>
+					<li>2</li>					
+					<li>3</li>					
+					<li>4</li>										
+					<li>5</li>					
+					<li>6</li>
+					<b>…</b>
+					<li>145</li>					
+					<li>146</li>					
+					<li>下一页</li>
+					<div class="page_change">
+						<p>共<i> 146 </i>页</p>
+						<div>到第<input type="text" />页</div>
+						<span>确定</span>
+					</div>
+						
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="list_right">
+		<p>
+			<span>热销推荐</span>
+		</p>
+		<ul>
+			<li>
+				<div>1</div>
+				<img src="img/List/list (2).jpg" alt="" />
+				<h3>一农特级浓香型铁观音240g/盒 精装版</h3>
+				<h2>¥ 79</h2>
+			</li>
+			<li>
+				<div>2</div>
+				<img src="img/List/list (22).jpg" alt="" />
+				<h3>植美村 红蓝管不脱妆裸色霜（更遮瑕）25ml*2</h3>
+				<h2>¥ 139</h2>
+			</li>
+			<li>
+				<div>3</div>
+				<img src="img/List/list (11).jpg" alt="" />
+				<h3>魔盒 普罗旺斯芳香礼盒（玫瑰手霜100g+乳木果手霜100g+手足霜100g）</h3>
+				<h2>¥ 99</h2>
+			</li>
+			<li>
+				<img src="img/List/list (6).jpg" alt="" />
+				<h3>侨丰 多功能干湿两用防滑衣架晾20只（颜色随机）</h3>
+				<h2>¥ 39</h2>
+			</li>
+			<li>
+				<img src="img/List/list (3).jpg" alt="" />
+				<h3>海贝尔贡缎提花天鹅绒四件套 200*230cm</h3>
+				<h2>¥ 198</h2>
+			</li>
+			<li>
+				<img src="img/List/list (16).jpg" alt="" />
+				<h3>品粒品味新疆和田大枣四星468g*2袋</h3>
+				<h2>¥ 69</h2>
+			</li>
+			<li>
+				<img src="img/List/list (5).jpg"alt="" />
+				<h3>松桂坊腊肉组（五花腊肉500g*1袋+ 后腿腊肉500g*1袋）</h3>
+				<h2>¥ 99</h2>
+			</li>
+			<li>
+				<img src="img/List/list (17).jpg" alt="" />
+				<h3>品粒品味新疆库尔勒开口小银杏350g*3袋</h3>
+				<h2>¥ 59</h2>
+			</li>
+			<li>
+				<img src="img/List/list (18).jpg" alt="" />
+				<h3>赛亿 速热石英管取暖器QH-1000A</h3>
+				<h2>¥ 79</h2>
+			</li>
+			<li>
+				<img src="img/List/list (15).jpg" alt="" />
+				<h3>美国·GNC健安喜 蔓越莓+VC胶囊 60粒</h3>
+				<h2>¥ 90.9</h2>
+			</li>
+		</ul>
+	</div>
+
+</section>
+<!--猜你喜欢-->
+<div class="Like_box">
+		<div class="Like_main">
+			<div class="Like_top">
+				<span>猜你喜欢</span>
+			</div>
+			<div class="Like_bottom">
+				<p class="L_prev prev"><img src="img/icon/prev_bg.png" alt="" /></p>
+				<div class="slideL">					
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_1.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>美国康宁晶彩透明锅福临门套组</h2>
+								<b>¥ 699</b><span>¥1699</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_12.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>轩品媛2018年夏季连体裤百搭休闲阔腿连衣裤</h2>
+								<b>¥169</b><span>¥299</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_3.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>奈唯 和田玉镶足金路路通手链 转运吉祥</h2>
+								<b>¥58</b><span>¥99</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_4.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>芭法娜 翠色佳人天然绿玉髓6mm时尚百搭多圈手链</h2>
+								<b>¥129</b><span>¥600</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_5.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>歌丽姬宝 素颜霜50ml*5瓶</h2>
+								<b>¥88</b><span>¥188</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_6.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>缘喜金玉 随形树叶貔貅翡翠吊坠配绳(附证书)</h2>
+								<b>¥669</b><span>¥1222</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_7.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>燕之坊 红豆薏米枸杞粉500g 蓝莓燕麦</h2>
+								<b>¥320</b><span>¥622</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_8.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>一品福瑞 富贵美人羊脂玉首饰组赠墨玉对</h2>
+								<b>¥1888</b><span>¥2888</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_9.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>美国直邮 法国·娇韵诗V脸塑颜紧致精华露</h2>
+								<b>¥169</b><span>¥288</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_10.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>滑板鞋 白底黑面复古潮流码数全</h2>
+								<b>¥329</b><span>¥699</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_11.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>格娜朵儿2018新款夏季妈妈装印花连衣裙TX-81</h2>
+								<b>¥99</b><span>¥199</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_13.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>黑色潮流夹克 配墨镜贼帅</h2>
+								<b>¥790</b><span>¥1080</span>
+							</div>
+						</dd>
+					</dl>
+					<dl>
+						<dt>
+							<img src="img/MyLike/MLike_14.jpg" alt="" />
+						</dt>
+						<dd>
+							<div>
+								<h2>ZR阿尔帕卡羊驼毛长款大衣</h2>
+								<b>¥669</b><span>¥889</span>
+							</div>
+						</dd>
+					</dl>
+				</div>
+				<p class="L_next next"><img src="img/icon/next_bg.png" alt="" /></p>
+			</div>
+		</div>
+	</div>
+
+<!--footer-->
+<footer>
+	<div class="ft_top">
+		<ul>
+			<li>
+				<p></p>
+				<h2>100%正品保证</h2>
+				<h3>质量有保障</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>在线支付 全场包邮</h2>
+				<h3>送货上门</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>支持银联刷卡付款</h2>
+				<h3>付款更安全</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>货到付款 开箱验货</h2>
+				<h3>满意才收货</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>7x24小时人工服务</h2>
+				<h3>微笑无时无刻 4008-678-210</h3>				
+			</li>		
+		</ul>
+	</div>
+	<div class="ft_middle">
+		<ul>
+			<p><a href="">关于我们</a></p>
+			<li><a href="">公司介绍</a></li>
+			<li><a href="">招聘信息</a></li>
+			<li><a href="">联系我们</a></li>
+			<li><a href="">用户隐私条款</a></li>
+		</ul>
+		<ul>
+			<p><a href="">订购指南</a></p>
+			<li><a href="">交易条款</a></li>
+			<li><a href="">注册/购物流程</a></li>
+			<li><a href="">退/换货</a></li>
+			<li><a href="">积分说明</a></li>
+			<li><a href="">发票指南</a></li>
+			<li><a href="">会员制度说明</a></li>	
+		</ul>
+		<ul>
+			<p><a href="">配送服务</a></p>
+			<li><a href="">配送区域</a></li>
+			<li><a href="">配送时间</a></li>
+			<li><a href="">验货与签收</a></li>
+		</ul>
+		<ul>		
+			<p><a href="">支付方式</a></p>
+			<li><a href="">网上支付</a></li>
+			<li><a href="">货到付款</a></li>
+		</ul>
+		<ul>
+			<p><a href="">合作专区</a></p>
+			<li><a href="">成为供应商</a></li>
+			<li><a href="">供应商系统</a></li>
+			<li><a href="">合作伙伴</a></li>
+		</ul>
+		<div>
+			<dl>
+				<dt><img src="img/ERweima/ewm011.jpg" alt="" /></dt>
+				<dd>家有购物微信</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/ERweima/ewm022.png" alt="" /></dt>
+				<dd>家有购物APP</dd>
+			</dl>
+			<p>
+			<img src="img/icon/mobile1.png" alt="" />
+			<span>400-678-210</span>
+			<i>客服7x24小时(全年无休)</i>
+		</p>					
+		</div>
+		
+	</div>
+	<div class="ft_bottom">
+		<div class="bt_box">
+			<div>友情链接：
+				<a href="">南京手机报价</a>
+				<a href="">竞拍</a>
+				<a href="">奥莱购</a>
+				<a href="">商品百科</a></div>
+			<p>Copyright © 2008-2013 huijiayou.cn <a href="">家有购物集团有限公司北京分公司</a> 版权所有 黔ICP备13002365号 增值电信业务经营许可证：黔B2-20120036</p>
+		</div>
+	</div>
+</footer>
+<!--fixed定位的各种侧边栏-->
+<!--  客服  -->
+<div id="a_fixed">
+	<div>
+		<p><span></span><img src="img/ERweima/ewm022.png" alt="" /><b>家有购物APP</b></p>
+	</div>
+	<div>
+		<p><span></span><img src="img/ERweima/ewm011.jpg" alt="" /><b>家有购物微信</b></p>
+	</div>
+	<div class="back_top"></div>
+	<p></p>
+</div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="../dist/list.js"></script>
+
+
+
+
+<!--<script src="js/ajax.js"></script>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/list.js"></script>
+<script src="js/index.js"></script>
+<script>
+	BackToTop($(".back_top")); //回到顶部 
+	
+	Slide5($(".R_prev"),$(".R_next"),(".slide5"))
+
+	Slide5($(".L_prev"),$(".L_next"),(".slideL"));//喜欢5张轮播
+	
+	Blurry($(".list_right li"));			//图片模糊效果	
+
+</script>-->
+	
+</body>
+</html>

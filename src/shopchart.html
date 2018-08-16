@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link rel="shortcut icon" href="img/hjy.ico" type="image/vnd.microsoft.icon" />
+<link rel="stylesheet" href="css/public1.css" />
+<link rel="stylesheet" href="css/shopchart.css" />
+</head>
+<body>
+	<!--header-->
+<header id="header">
+<div class="h_title">
+	<div class="title_box">
+		<ul>
+			<li><a href="">收藏</a></li>
+		</ul>
+		<ul>
+			<li><a href="index.html">首页</a></li>
+			<li class="Login"><a href="login.html">请登录</a></li>
+			<li class="Register"><a href="register.html">免费注册</a></li>
+			<li>购物车<a href="shopchart.html" class="title_num"> 0 </a>件</li>
+			<li><a href="">我的家有</a></li>
+			<li>可用优惠券<a href=""> 0 </a>张</li>
+			<li><a href="">我的收藏</a></li>
+			<li><a href=""><span></span>手机版</a>
+				<p><span></span><img src="img/ERweima/ewm011.jpg" alt="" />
+				<b>家有购物APP</b>
+				</p>
+			</li>
+			<li>
+				<a href=""><span></span>微信版</a>
+				<div>
+					<span></span>
+					<img src="img/ERweima/ewm022.png" alt="" />
+					<b>家有购物微信</b>
+					<img src="img/ERweima/ewm033.jpg" alt="" />
+					<b>家有实验室</b>
+				</div>
+			</li>			
+		</ul>			
+	</div>
+</div>
+<div class="h_main">
+	<div><a href="index.html"><img src="img/Banner/logo1.png" alt=""/></a></div>
+	<div>
+		<div>
+			<input type="text" />
+			<input type="button" value="搜 索" />
+		</div>
+		<ul>				
+			<li><a href="">京城</a></li>
+			<li><a href="">防晒</a></li>
+			<li><a href="">女装</a></li>
+			<li><a href="">康宁</a></li>
+			<li><a href="">智能</a></li>
+			<li><a href="">莫洛琪</a></li>
+			<li><a href="">男士</a></li>
+			<li><a href="">收纳</a></li>
+			<li><a href="">GNC</a></li>				
+		</ul>
+	</div>
+	<!--******************购物车***************-->
+	<div class="my_chart">
+		<img src="img/icon/car_icon.png" alt="" />
+		<span  onclick="location.href='shopchart.html'">我的购物车<mark>0</mark></span>
+		
+		<!--没有商品的样式，这是固定的-->
+		<div class="no_goods">
+			<i></i>				
+			<div>购物车中还没有商品赶快去选购吧</div>
+		</div>
+		<!--有商品的时候,宽度和部分样式-->
+		<div class="had_goods">	
+			<i></i>
+			<h1>最新加入的商品</h1>
+			<ul class="new_goods">
+			</ul>
+			<div class="chart_bottom">
+				<h2>共<strong></strong>件商品</h2>
+				<h3>合计<del></del>元</h3>
+				<h4>去购物车</h4>
+			</div>
+		</div>			
+	</div>	
+</div>
+<div class="h_nav">
+	<ul class="nav_left">
+		<li>全部商品分类</li>
+		<b><img src="img/Details/jiantou.jpg" alt="" /></b>
+		<ul>
+			<li onclick="location.href='list.html'">服装服饰</li>
+			<li>食品饮料</li>
+			<li>生活家居</li>
+			<li>美妆个护</li>
+			<li>箱包配饰</li>
+			<li>海外购</li>
+			<li>运动健康</li>
+			<li>布艺家纺</li>
+			<li>品质厨房</li>
+			<li>厨房电器</li>
+			<li>生活电器</li>
+			<li>3C数码</li>
+		</ul>
+	</ul>
+	<ul class="nav_right">
+		<li>首页</li>
+		<li>TV直播</li>
+		<li>品牌惠</li>
+		<li>家有购物APP</li>
+		<li>家有尊享</li>
+	</ul>
+</div>
+</header>
+<!--section-->
+
+<section>
+	<h2><b>包邮</b>所有商品全场包邮(西藏、新疆、青海地区除外)</h2>
+	<table>
+		<thead>
+			<tr>
+				<td><input type="checkbox" id="checkall1" /></td>
+				<td>全选</td>
+				<td>商品</td>
+				<td>单价(元)</td>
+				<td>数量</td>
+				<td>小计</td>
+				<td>操作</td>
+			</tr>
+		</thead>
+		<tbody id="tbody1"></tbody>
+	</table>
+	<div class="payment">
+		<div>
+			<input type="checkbox" id="checkall2"/>
+			<b>全选</b>
+			<i id="delall1">删除选中的商品</i>
+		</div>
+		<div>
+			<span>已选择<strong>0</strong>件商品</span>
+			<em>应付款：<del></del></em>
+			<a href="">去结算</a>
+			
+		</div>
+	</div>
+</section>
+ 
+
+
+
+
+
+
+<!--footer-->
+<footer>
+	<div class="ft_top">
+		<ul>
+			<li>
+				<p></p>
+				<h2>100%正品保证</h2>
+				<h3>质量有保障</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>在线支付 全场包邮</h2>
+				<h3>送货上门</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>支持银联刷卡付款</h2>
+				<h3>付款更安全</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>货到付款 开箱验货</h2>
+				<h3>满意才收货</h3>
+			</li>
+			<li>
+				<p></p>
+				<h2>7x24小时人工服务</h2>
+				<h3>微笑无时无刻 4008-678-210</h3>				
+			</li>		
+		</ul>
+	</div>
+	<div class="ft_middle">
+		<ul>
+			<p><a href="">关于我们</a></p>
+			<li><a href="">公司介绍</a></li>
+			<li><a href="">招聘信息</a></li>
+			<li><a href="">联系我们</a></li>
+			<li><a href="">用户隐私条款</a></li>
+		</ul>
+		<ul>
+			<p><a href="">订购指南</a></p>
+			<li><a href="">交易条款</a></li>
+			<li><a href="">注册/购物流程</a></li>
+			<li><a href="">退/换货</a></li>
+			<li><a href="">积分说明</a></li>
+			<li><a href="">发票指南</a></li>
+			<li><a href="">会员制度说明</a></li>	
+		</ul>
+		<ul>
+			<p><a href="">配送服务</a></p>
+			<li><a href="">配送区域</a></li>
+			<li><a href="">配送时间</a></li>
+			<li><a href="">验货与签收</a></li>
+		</ul>
+		<ul>		
+			<p><a href="">支付方式</a></p>
+			<li><a href="">网上支付</a></li>
+			<li><a href="">货到付款</a></li>
+		</ul>
+		<ul>
+			<p><a href="">合作专区</a></p>
+			<li><a href="">成为供应商</a></li>
+			<li><a href="">供应商系统</a></li>
+			<li><a href="">合作伙伴</a></li>
+		</ul>
+		<div>
+			<dl>
+				<dt><img src="img/ERweima/ewm011.jpg" alt="" /></dt>
+				<dd>家有购物微信</dd>
+			</dl>
+			<dl>
+				<dt><img src="img/ERweima/ewm022.png" alt="" /></dt>
+				<dd>家有购物APP</dd>
+			</dl>
+			<p>
+			<img src="img/icon/mobile1.png" alt="" />
+			<span>400-678-210</span>
+			<i>客服7x24小时(全年无休)</i>
+		</p>					
+		</div>		
+	</div>
+	<div class="ft_bottom">
+		<div class="bt_box">
+			<div>友情链接：
+				<a href="">南京手机报价</a>
+				<a href="">竞拍</a>
+				<a href="">奥莱购</a>
+				<a href="">商品百科</a></div>
+			<p>Copyright © 2008-2013 huijiayou.cn <a href="">家有购物集团有限公司北京分公司</a> 版权所有 黔ICP备13002365号 增值电信业务经营许可证：黔B2-20120036</p>
+		</div>
+	</div>
+</footer>
+<!--fixed定位的各种侧边栏-->
+<!--  客服  -->
+<div id="a_fixed">
+	<div>
+		<p><span></span><img src="img/ERweima/ewm022.png" alt="" /><b>家有购物APP</b></p>
+	</div>
+	<div>
+		<p><span></span><img src="img/ERweima/ewm011.jpg" alt="" /><b>家有购物微信</b></p>
+	</div>
+	<div class="back_top"></div>
+	<p></p>
+</div>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="../dist/shopchart.js"></script>
+
+<!--<script src="js/jquery-1.11.3.js"></script>
+<script src="js/cookie.js"></script>
+<script src="js/chart.js"></script>
+<script src="js/shopchart.js"></script>
+<script src="js/index.js"></script>-->
+</body>
+</html>

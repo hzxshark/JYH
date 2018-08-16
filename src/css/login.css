@@ -1,0 +1,209 @@
+
+#header{	
+	width:100%;
+	height:160px !important;
+	border-bottom:2px solid #dc0f50;
+}
+
+#login_box{
+	width:1200px;
+	margin:0 auto;
+	height:530px;
+}
+
+.login_left{
+	width:50%;
+	height:530px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	float:left;
+}
+.login_right{
+	width:50%;
+	height:530px;
+	float:left;
+
+}
+.login_right>ul{
+	width:446px;
+	height:336px;
+	margin:0 auto;
+	position: relative;
+}
+.main1{
+	padding-top:40px;
+}
+.main1,.main2{	
+	width:446px;
+	height:336px;
+	border:1px solid #e5e5e5;
+	margin:0 auto;
+	text-align:center;
+	background:#fff;
+}
+.login_right ul>li{
+	display: none;
+}
+.main1>input,.main2>input{
+	width:243px;
+	height:38px;
+	font-size:14px;
+	border:1px solid #e5e5e5;
+	padding-left:60px;
+	color:#a9a9a9 ;
+	position:relative;
+}
+
+.txt1{
+	margin: 5px 0 20px 0;
+	background: url(../img/icon/icon01.png) no-repeat 10px 10px;
+}
+.txt2{
+	background: url(../img/icon/icon02.png) no-repeat 10px 10px;
+}
+.main1 input,.main2 input[type="checkbox"]{
+	margin-right:5px;
+}
+.main1 input[type="button"],.main2 input[type="button"]{
+	background:#dc0f50;
+	padding:0;
+	color:#fff;
+	font-size:18px;
+	margin-top:40px;
+	cursor:pointer;
+	width:305px;
+}
+.btn1:hover{
+	background:rgba(220,15,80,.8)!important;
+}
+.main1 span,.main2 span {
+	margin:0 auto;
+	width:305px;
+	display: flex;
+	justify-content: space-between;
+	margin-top:10px;
+	font-size:14px;
+	color:#666;
+}
+.login_right ol li{
+	font-size:18px;
+	display: inline-block;
+	padding-bottom: 10px;
+	cursor:pointer;
+}
+
+.main1>h3{
+	width:305px;
+	color:#dc0f50;
+	font-size:12px;
+	display: none;
+}
+.error{
+	display: block !important;
+}
+.txt1+s{
+	display: none;
+}
+.correct{
+	display: inline-block !important;
+	width:30px;
+	height:40px;
+	background: url(../img/icon/correct_bg.png) no-repeat 6px;
+	position:absolute;
+	right:38px;
+	top:43px;
+}
+
+.checked{
+	color:#dc0f50;
+	border-bottom: 2px solid #dc0f50;
+	position: relative;
+	z-index: 2;
+}
+.selected1{
+	display: block !important;
+}
+
+
+
+
+
+
+
+
+
+.main2{
+	background: #fff;;
+	position:absolute;
+	top:0;
+	left:0;	
+}
+
+.main2 .txt1{
+	margin:5px 0 20px;
+}
+{
+	background: url(../img/icon/yanzhengma1.png);
+}
+.main2 .txt3{
+	margin-bottom: 20px;
+	background: url(../img/icon/icon02.png) no-repeat 10px 10px;
+}
+.txt3+img{
+	border-left:1px solid #e5e5e5;
+	position: absolute;
+	right:72px;
+	top:128px;
+	
+}
+.txt1+p{
+	width:90px;
+	height:40px;
+	position: absolute;
+	right:72px;
+	top:67px;
+	background:#dc0f50;
+	font-size: 14px;
+	line-height:40px;
+	color:#fff;
+	cursor:pointer;
+}
+.txt1+p:hover{
+	background:rgba(220,15,80,.8)!important;	
+}
+.main2>input{
+	width:263px;
+	padding-left:40px ;
+}
+
+.main2 h5{
+	color:#dc0f50;
+	height:50px;
+	line-height:50px;
+	margin:0 auto;
+	padding-left:30px;
+	width:275px;
+	text-align: left;
+	font-size: 12px;
+	background: url(../img/icon/ling.png) no-repeat 8px;
+}
+.main2 h6{
+	margin:0 auto;
+	width:305px;
+	text-align: left;
+	color:#999;
+	line-height:1em;
+}
+span em,span b{
+	cursor:pointer;
+}
+.login_right ol{
+	width:446px;
+	margin:70px auto -1px;
+	display: flex;
+	justify-content: space-around;
+}
+
+/*登录成功跳转页*/
